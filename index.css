@@ -1,0 +1,183 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+.intro-container-1 
+{
+
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image:  linear-gradient(#4298fabd,rgba(2, 2, 2, 0.8)),url('images/card_images/transparent and secure.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.intro-container-2 
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image:  linear-gradient(#4298fabd,rgba(2, 2, 2, 0.8)),url('images/card_images/physician.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.intro-container-1,.intro-container-2  h1 
+{
+    color: #fff;
+}
+.login_container
+{
+    padding: 25px;
+    width: 100%;
+    min-height: 50vh;
+    background: #92bbd3;
+    
+}
+
+#a_link
+{
+    
+    margin: 30px;
+    color: #fff;
+    background: #4298fa;
+    border: 2px solid #fff;
+    padding: 10px 25px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+#a_link:hover 
+{
+    background: #4298fa;
+    border: 2px solid #4298fa;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+.help_container
+{
+    min-height: 80vh;
+    width: 100%;
+    background: rgb(251, 244, 210);
+    padding: 35px;
+    text-align: center;
+    justify-content: center;
+   
+}
+.help_container_inside 
+{
+    min-height: 70vh;
+    margin: 40px auto;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: space-evenly;
+}
+.help_container_inside > div 
+{
+    height: 450px;
+    width: 340px;
+    padding: 25px;
+    margin: 25px ;
+   
+   
+}
+.help_container_inside > div img:hover 
+{
+    box-shadow: 0px 5px 20px 1px #4298fa;
+}
+.help_container_inside > div img 
+{
+    width: 100%;
+    border-radius: 50%;
+    margin: 15px auto;
+    transition: 0.8s;
+}
+.help_container_inside > div h2 
+{
+    font-size: 1.8em;
+}
+.help_container_inside > div h4 
+{
+    position: relative;
+    color: #4298fa;
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 1em;
+    
+}
+h2 
+{
+    font-size: 2.5em;
+}
+.login-box 
+{
+    position: relative;
+    padding: 50px;
+    max-width: 500px;
+    margin: 35px auto;
+    border: 2px solid #020f58;
+    box-shadow:  0px 4px 12px 0px #000;
+    border-radius: 5px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.login-box,.register-container:hover 
+{
+
+
+    box-shadow:  0px 4px 12px 0px #777;   
+}
+.register-container
+{
+   position: relative;
+   padding: 50px;
+   width: 100%;
+   border: 2px solid #020f58;
+   box-shadow:  0px 4px 12px 0px #000;
+   border-radius: 5px;
+   display: none;
+   transition: 0.5s;
+}
+.button-box 
+{
+    width: 240px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 18px 5px #4298fa;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    cursor: pointer;
+    padding: 10px 30px;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+span 
+{
+    color:#4298fa;
+    bottom: 68px;
+    font-size: 12px;
+}
+@media screen and (max-width:760px) 
+{
+    .help_container_inside{
+        flex-direction: column;
+    }
+    .help_container_inside > div 
+    {
+        border-bottom: 1px solid #000;
+    }
+    
+}
